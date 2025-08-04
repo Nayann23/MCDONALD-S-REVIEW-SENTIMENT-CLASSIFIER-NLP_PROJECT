@@ -6,10 +6,10 @@ A smart, production-ready sentiment analysis system designed to classify real-wo
 
 ## 🔍 What It Does
 
-- Analyzes casual and informal customer feedback — including emoji slang and misspellings
-- Handles complex inputs like sarcasm, mixed emotions, and noisy language
-- Predicts sentiment into 3 clear categories: **Excellent**, **Average**, or **Poor**
-- Delivers real-time predictions through a friendly web interface
+- Analyzes casual and informal customer feedback — including emoji slang and misspellings  
+- Handles complex inputs like sarcasm, mixed emotions, and noisy language  
+- Predicts sentiment into 3 clear categories: **Excellent**, **Average**, or **Poor**  
+- Delivers real-time predictions through a friendly web interface  
 
 ---
 
@@ -21,11 +21,9 @@ A smart, production-ready sentiment analysis system designed to classify real-wo
 - ✅ Detects sarcasm and emotional ambiguity  
   > Example: `Wow, cold fries again. Best day ever 🙃`
 
-- ✅ Interprets emoji context and sentiment
-
-- ✅ Corrects common spelling errors and slang
-
-- ✅ Performs strongly on real-world, user-generated content
+- ✅ Interprets emoji context and sentiment  
+- ✅ Corrects common spelling errors and slang  
+- ✅ Performs strongly on real-world, user-generated content  
 
 ---
 
@@ -43,18 +41,18 @@ A smart, production-ready sentiment analysis system designed to classify real-wo
 
 ## 🎯 Sentiment Labels
 
-- 🟢 **Excellent**
-- 🟡 **Average**
-- 🔴 **Poor**
+- 🟢 **Excellent**  
+- 🟡 **Average**  
+- 🔴 **Poor**  
 
 ---
 
 ## 🌍 Real-World Use Cases
 
-- Analyzing food delivery app feedback
-- Monitoring social media sentiment for fast food brands
-- Automating sentiment detection in app store reviews
-- Internal analysis of customer experience trends
+- Analyzing food delivery app feedback  
+- Monitoring social media sentiment for fast food brands  
+- Automating sentiment detection in app store reviews  
+- Internal analysis of customer experience trends  
 
 ---
 
@@ -71,13 +69,13 @@ streamlit run app.py
 
 ## 📁 Project File Structure
 
-```
-📦 mcdonalds-review-sentiment-classifier
- ┣ 📜 app.py                                # Streamlit frontend application
- ┣ 📜 svc_model.pkl                         # Trained final SVC model
- ┣ 📜 tfidf_vectorizer.pkl                  # TF-IDF vectorizer used for feature extraction
- ┣ 📜 McDonalds_Review_Classifier_Model_Development.ipynb  # Full model dev notebook
- ┣ 📜 README.md                             # Project documentation (this file)
+```text
+mcdonalds-review-sentiment-classifier/
+├── app.py                                 # Streamlit frontend application
+├── svc_model.pkl                          # Trained final SVC model
+├── tfidf_vectorizer.pkl                   # TF-IDF vectorizer for feature extraction
+├── McDonalds_Review_Classifier_Model_Development.ipynb  # Model development notebook
+└── README.md                              # Project documentation (this file)
 ```
 
 ---
