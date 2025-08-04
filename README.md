@@ -1,87 +1,87 @@
-# 🍔 MCDONALD'S REVIEW SENTIMENT CLASSIFIER — REAL-WORLD NLP WITH STREAMLIT
+# 🍔 McDonald's Review Sentiment Classifier — Real-World NLP with Streamlit
 
-A smart, practical sentiment analysis system built to classify real-world McDonald's customer reviews into **Excellent**, **Average**, or **Poor**, even when the input is messy, sarcastic, or emoji-heavy. Designed with production readiness in mind using NLP techniques and deployed via an interactive Streamlit interface.
-
----
-
-## 🔍 WHAT IT DOES
-
-- Analyzes real McDonald's-style feedback from casual language to emoji slang
-- Handles typos, sarcasm, emoji sentiment, and informal tone
-- Predicts review sentiment into 3 classes: Excellent, Average, Poor
-- Offers instant classification via a user-friendly web interface
+A smart, production-ready sentiment analysis system designed to classify real-world McDonald's customer reviews into **Excellent**, **Average**, or **Poor**, even when input includes typos, sarcasm, or emojis. Built using robust NLP techniques and deployed with an interactive **Streamlit** interface.
 
 ---
 
-## 🚀 FEATURES
+## 🔍 What It Does
 
-- ✅ Accepts messy text:  
-  > `da fooood waz 🔥 bt service sux lol`
-
-- ✅ Understands sarcasm and mixed emotions:  
-  > `Wow, cold fries again. Best day ever 🙃`
-
-- ✅ Converts emojis into meaningful context
-
-- ✅ Fixes spelling issues to better understand intent
-
-- ✅ Model performance exceeds expectations with real-world user input
+- Analyzes casual and informal customer feedback — including emoji slang and misspellings
+- Handles complex inputs like sarcasm, mixed emotions, and noisy language
+- Predicts sentiment into 3 clear categories: **Excellent**, **Average**, or **Poor**
+- Delivers real-time predictions through a friendly web interface
 
 ---
 
-## 📊 MODEL PERFORMANCE SUMMARY
+## 🚀 Features
 
-| Model Tried         | Accuracy (Holdout Set) | Notes                                   |
-|---------------------|------------------------|-----------------------------------------|
-| SVC (default)       | 83.3%                  | Strong baseline, best general performance |
-| SVC (with CV)       | 82.2% (CV mean)        | Stable across folds, reliable prediction |
-| Final Model         | ~90–95% (real-world)   | High accuracy on casual/sarcastic inputs |
+- ✅ Accepts messy, unstructured text  
+  > Example: `da fooood waz 🔥 bt service sux lol`
 
-> ⚠️ Final model was enhanced using advanced preprocessing logic for user inputs. Specific techniques are abstracted for simplicity and future protection.
+- ✅ Detects sarcasm and emotional ambiguity  
+  > Example: `Wow, cold fries again. Best day ever 🙃`
 
----
+- ✅ Interprets emoji context and sentiment
 
-## 🎯 SENTIMENT LABELS
+- ✅ Corrects common spelling errors and slang
 
-- **Excellent**
-- **Average**
-- **Poor**
+- ✅ Performs strongly on real-world, user-generated content
 
 ---
 
-## 🌍 REAL-WORLD USE CASES
+## 📊 Model Performance Summary
 
-- Customer feedback mining from food service apps
-- Social media sentiment monitoring for brands
-- Automated moderation for app store reviews
-- Internal brand experience analysis
+| Model Version        | Accuracy (Holdout Set) | Notes                                      |
+|----------------------|------------------------|--------------------------------------------|
+| SVC (default)        | 83.3%                  | Strong baseline, excellent generalization  |
+| SVC (with CV)        | 82.2% (CV Mean)        | Stable across cross-validation folds       |
+| **Final Model**      | ~90–95% (real-world)   | Optimized for sarcasm, typos, and emojis   |
+
+> ⚠️ Final model includes advanced preprocessing logic tailored to noisy user inputs. Detailed preprocessing steps are abstracted for clarity and IP protection.
 
 ---
 
-## 🖥️ HOW TO RUN LOCALLY
+## 🎯 Sentiment Labels
 
-Make sure required packages are installed (`streamlit`, `nltk`, `emoji`, etc.)
+- 🟢 **Excellent**
+- 🟡 **Average**
+- 🔴 **Poor**
+
+---
+
+## 🌍 Real-World Use Cases
+
+- Analyzing food delivery app feedback
+- Monitoring social media sentiment for fast food brands
+- Automating sentiment detection in app store reviews
+- Internal analysis of customer experience trends
+
+---
+
+## 🖥️ How to Run Locally
+
+1. Install required packages (e.g., `streamlit`, `nltk`, `emoji`, etc.)
+2. Run the app using:
 
 ```bash
 streamlit run app.py
-
 ```
 
-## **📁 FILE STRUCTURE**
+---
 
-📦mcdonalds-review-sentiment-classifier
- ┣ 📜 app.py              → Streamlit frontend
- ┣ 📜 svc_model.pkl       → Trained SVC model (final)
- ┣ 📜 tfidf_vectorizer.pkl→ TF-IDF vectorizer
- ┣ 📜 McDonalds_Review_Classifier_Model_Development.ipynb → Model development notebook
- ┣ 📜 README.md
+## 📁 Project File Structure
 
+```
+📦 mcdonalds-review-sentiment-classifier
+ ┣ 📜 app.py                                # Streamlit frontend application
+ ┣ 📜 svc_model.pkl                         # Trained final SVC model
+ ┣ 📜 tfidf_vectorizer.pkl                  # TF-IDF vectorizer used for feature extraction
+ ┣ 📜 McDonalds_Review_Classifier_Model_Development.ipynb  # Full model dev notebook
+ ┣ 📜 README.md                             # Project documentation (this file)
+```
 
-----
+---
 
-## **🙌 ACKNOWLEDGEMENTS**
+## 🙌 Acknowledgements
 
-Project developed through practical experimentation and hands-on simulation of noisy, informal customer reviews. Inspired by real-world NLP challenges in fast food customer sentiment analysis.
-
-
-
+This project was developed through hands-on experimentation to simulate real-world, noisy customer feedback. It draws inspiration from practical challenges in food service sentiment analysis and aims to bridge the gap between academic NLP and consumer-facing applications.
