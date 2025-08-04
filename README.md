@@ -83,9 +83,9 @@ mcdonalds-review-sentiment-classifier/
 
 ## 🙋‍♂️ AUTHOR
 
-**Nayan**  
+#### **NAYAN DAROKAR**  
 Aspiring Data Scientist with a focus on building real-world, intelligent systems using data-driven approaches.  
-🔗 [LinkedIn](https://www.linkedin.com/in/nayan-darokar-468a85294/)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nayan-darokar-468a85294/) 
 
 ---
 
