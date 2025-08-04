@@ -80,6 +80,19 @@ mcdonalds-review-sentiment-classifier/
 
 ---
 
+
+## 🙋‍♂️ AUTHOR
+
+**Nayan**  
+Aspiring Data Scientist with a focus on building real-world, intelligent systems using data-driven approaches.  
+🔗 [LinkedIn](https://www.linkedin.com/in/nayan-darokar-468a85294/)
+
+---
+
+---
+
 ## 🙌 Acknowledgements
 
 This project was developed through hands-on experimentation to simulate real-world, noisy customer feedback. It draws inspiration from practical challenges in food service sentiment analysis and aims to bridge the gap between academic NLP and consumer-facing applications.
+
+
