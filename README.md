@@ -67,4 +67,21 @@ streamlit run app.py
 
 ```
 
-📁 FILE STRUCTURE
+## **📁 FILE STRUCTURE**
+
+📦mcdonalds-review-sentiment-classifier
+ ┣ 📜 app.py              → Streamlit frontend
+ ┣ 📜 svc_model.pkl       → Trained SVC model (final)
+ ┣ 📜 tfidf_vectorizer.pkl→ TF-IDF vectorizer
+ ┣ 📜 McDonalds_Review_Classifier_Model_Development.ipynb → Model development notebook
+ ┣ 📜 README.md
+
+
+----
+
+## **🙌 ACKNOWLEDGEMENTS**
+
+Project developed through practical experimentation and hands-on simulation of noisy, informal customer reviews. Inspired by real-world NLP challenges in fast food customer sentiment analysis.
+
+
+
